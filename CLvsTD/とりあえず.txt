@@ -1,0 +1,13 @@
+使うデータは[S1CL(TD)~~~~s1]
+	意味: 被験者の状態-CL or TD(定型発達)
+		v1は1回目の検査(同じ人で2回目がある)
+
+
+やること
+1.[data_block]においてChanelFlagの-1を削除
+2.[data_block]に[ME_MEG_Karnel]のImaging Kernelを作用させる
+3.[作用させたもの]に[cortical_model]を作用させてdataが得られる
+4.これをpythonにぶち込む
+
+5.matfileをぶち込むときのコーディングをまとめる
+6.ChainerからTensorFlowに移行 
